@@ -4,7 +4,7 @@ This is a simplified version of client-server FTP. Authenticated clients can iss
 
 #### Installation & Run
 
-```bash
+```
 $ make
 $ ./server <port> # default directory .
 $ ./client <server_ip> <port>
@@ -12,14 +12,14 @@ $ ./client <server_ip> <port>
 
 #### Login
 
-```bash
+```
 username: user
 password: pass
 ```
 
 #### Commands
 
-```bash
+```
 >mftp cd <path>            change server directory
 >mftp !cd <path>           change local directory
 >mftp pwd                  pwd on server
