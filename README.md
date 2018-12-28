@@ -20,13 +20,13 @@ password: pass
 #### Commands
 
 ```
->mftp cd <path>            change server directory
->mftp !cd <path>           change local directory
->mftp pwd                  pwd on server
->mftp !pwd                 pwd locally
->mftp ls                   list files under server pwd
->mftp put <filename>       upload <filename> to server
->mftp get <filename>       download <filename> from server
->mftp quit (or ctrl+d)     quit client process
+mftp> cd <path>            change server directory
+mftp> !cd <path>           change local directory
+mftp> pwd                  pwd on server
+mftp> !pwd                 pwd locally
+mftp> ls                   list files under server pwd
+mftp> put <filename>       upload <filename> to server
+mftp> get <filename>       download <filename> from server
+mftp> quit (or ctrl+d)     quit client process
 ```
 
